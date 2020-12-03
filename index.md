@@ -24,23 +24,29 @@ Feel free to check out the links below for more information about my work experi
 * [Resume](https://docs.google.com/document/d/1og4cnw4wo5p0tshHp6ZSpowDlpPgGAKokTFZwCBBErU/edit?usp=sharing)  
 
 ### Completed Courses
-CS 16X - Introduction to Computer Science Series
-CS 261 - Data Structures
-CS 290 - Web Development
-CS 271, ECE 375 - Computer Architecture and Assembly Language
-CS 325 - Analysis of Algorithms
-CS 340 - Introduction to Databases
-CS 344, CS 444 - Operating Systems I & II
-CS 352 - Introduction to Usability
-CS 361, CS 362 - Fundamentals of Software Engineering I & II
-CS 453 - Scientific Visualization
 
-ST 351, ST 352 - Introduction to Statistical Methods I & II
-ST 421, ST 422 - Introduction to Mathematical Statistics I & II
-ST 441 - Probability, Computation, and Simulation in Statistics
+**Computer Science**
 
-WR 327 - Technical Writing
-CS 391 - Social and Ethical Issues in Computer Science
+* CS 16X - Introduction to Computer Science Series
+* CS 261 - Data Structures
+* CS 290 - Web Development
+* CS 271, ECE 375 - Computer Architecture and Assembly Language
+* CS 325 - Analysis of Algorithms
+* CS 340 - Introduction to Databases
+* CS 344, CS 444 - Operating Systems I & II
+* CS 352 - Introduction to Usability
+* CS 361, CS 362 - Fundamentals of Software Engineering I & II
+
+**Statistics**
+
+* ST 351, ST 352 - Introduction to Statistical Methods I & II
+* ST 421, ST 422 - Introduction to Mathematical Statistics I & II
+* ST 441 - Probability, Computation, and Simulation in Statistics
+
+**Other**
+
+* WR 327 - Technical Writing
+* CS 391 - Social and Ethical Issues in Computer Science
 
 ### Extracurriculars / Hobbies / Fun Stuff
 When I'm not working or studying, I really enjoy reading, trying new teas, 
