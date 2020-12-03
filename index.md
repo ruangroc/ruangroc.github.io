@@ -1,30 +1,29 @@
 ## Hi there, I'm Anita!
-I'm a fourth-year Computer Science student at Oregon State University.
+I'm a fourth-year student at Oregon State University majoring in Computer Science and minoring in Statistics.
+I'm currently most interested in learning more about machine learning, full stack development, and how to use
+tech for social good.
 
-**Items to add to this page**
-* about page or section with info about me
-	* probably include some info about my career aspirations
-	* can also include some hobbies and biographical stuff to be interesting
-* projects / related work
-	* can include projects I've worked on, samples of my work
-	* can probably list areas of expertise and areas of interest
+I am an undergraduate researcher at OSU, mentored by [Dr. Minsuk Kahng](minsuk.com). Currently, my capstone team
+and I are helping Dr. Kahng develop a novel video searching and browsing web application that leverages a deep 
+learning model in order to service custom queries about TV shows. 
 
-[LinkedIn](https://www.linkedin.com/in/anita-ruangrotsakun/)  
-[GitHub](https://github.com/ruangroc)  
-[Resume](https://docs.google.com/document/d/1og4cnw4wo5p0tshHp6ZSpowDlpPgGAKokTFZwCBBErU/edit?usp=sharing)  
+I am also a peer tutor for the College of Engineering and the Treasurer of the 
+[Adaptive Technology Engineering Network](http://groups.engr.oregonstate.edu/aten/)
+(ATEN) club. I have also helped to put together and host the 
+[Leading and Enabling Adolescent Futures in STEM (LEAFS)](http://groups.engr.oregonstate.edu/aten/leafs/home)
+Program at OSU in the winters of 2019 and 2020.
 
-### About Me
-Describe me (probably look to friends' pages for guidance about how much to say?)
-CS systems major, Stats minor
-Interested in full stack dev + ML + tech for social good
+Beyond academics and extracurriculars, I have a little bit of industry experience from my internship at Google in 2019. 
+As a Google Engineering Practicum intern, I worked on a web application for the 
+[Network Planner team](https://www.google.com/get/spectrumdatabase/) 
+that would allow users to upload CSVs and visualize geo-tagged data for the purposes of planning a shared spectrum ecosystem.
 
-### Projects + Previous Work
-URSA Engage
-DIV Lab projects (private, but can give a summary)
-CS Capstone
-Google Internship (is it publicly accessible?)
+Feel free to check out the links below for more information about my work experience and academic background:
+* [LinkedIn](https://www.linkedin.com/in/anita-ruangrotsakun/)  
+* [GitHub](https://github.com/ruangroc)  
+* [Resume](https://docs.google.com/document/d/1og4cnw4wo5p0tshHp6ZSpowDlpPgGAKokTFZwCBBErU/edit?usp=sharing)  
 
-### Relevant Classes
+### Completed Courses
 CS 16X - Introduction to Computer Science Series
 CS 261 - Data Structures
 CS 290 - Web Development
@@ -43,17 +42,16 @@ ST 441 - Probability, Computation, and Simulation in Statistics
 WR 327 - Technical Writing
 CS 391 - Social and Ethical Issues in Computer Science
 
-### Goals
-learning goals
-books to read next
-things to make
-things to watch
-
 ### Extracurriculars / Hobbies / Fun Stuff
-ATEN / LEAFS
-TAMU Datathon 2020
-BeaverHacks 2020
-Cooking / Baking
-Flight Rising?
-(Maybe add bookbinding and sims 3?)
+When I'm not working or studying, I really enjoy reading, trying new teas, 
+cooking and baking with and for my friends and family, and playing some (kind of dorky) 
+video games (The Sims 3 or Flight Rising, anyone?). I have also dabbled in bookbinding 
+and I took piano lessons for 12 years of my life, though I rarely have time to play nowadays.
 
+### Current Goals / Short Bucketlist
+* Learn how to train and deploy a machine learning model as a web app.
+* Make Earl Grey ice cream.
+* Complete a tour of all the chocolate shops in Portland.
+* Create a Sims 3 family tree tracking web app.
+* Create a program to calculate the carbon footprint of a meal.
+* Finish the Broken Earth trilogy by N.K. Jemisin.
