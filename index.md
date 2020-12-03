@@ -23,6 +23,7 @@ Feel free to check out the links below for more information about my work experi
 * [GitHub](https://github.com/ruangroc)  
 * [Resume](https://docs.google.com/document/d/1og4cnw4wo5p0tshHp6ZSpowDlpPgGAKokTFZwCBBErU/edit?usp=sharing)  
 
+____
 ### Completed Courses
 
 **Computer Science**
@@ -48,6 +49,7 @@ Feel free to check out the links below for more information about my work experi
 * WR 327 - Technical Writing
 * CS 391 - Social and Ethical Issues in Computer Science
 
+____
 ### Hobbies + Fun Stuff
 When I'm not working or studying, I really enjoy reading, trying new teas, 
 cooking and baking with and for my friends and family, and playing some (kind of dorky) 
