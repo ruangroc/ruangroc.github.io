@@ -58,6 +58,6 @@ and I took piano lessons for 12 years of my life, though I rarely have time to p
 * Learn how to train and deploy a machine learning model as a web app.
 * Make Earl Grey ice cream.
 * Complete a tour of all the chocolate shops in Portland.
-* Create a Sims 3 family tree tracking web app.
+* Create a web app to keep track of my Sims 3 family trees.
 * Create a program to calculate the carbon footprint of a meal.
-* Finish the Broken Earth trilogy by N.K. Jemisin.
+* Finish [The Broken Earth trilogy by N.K. Jemisin](https://www.goodreads.com/series/112296-the-broken-earth).
