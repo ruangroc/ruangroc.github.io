@@ -48,13 +48,13 @@ Feel free to check out the links below for more information about my work experi
 * WR 327 - Technical Writing
 * CS 391 - Social and Ethical Issues in Computer Science
 
-### Extracurriculars / Hobbies / Fun Stuff
+### Hobbies + Fun Stuff
 When I'm not working or studying, I really enjoy reading, trying new teas, 
 cooking and baking with and for my friends and family, and playing some (kind of dorky) 
 video games (The Sims 3 or Flight Rising, anyone?). I have also dabbled in bookbinding 
 and I took piano lessons for 12 years of my life, though I rarely have time to play nowadays.
 
-### Current Goals / Short Bucketlist
+### Up next on my bucketlist
 * Learn how to train and deploy a machine learning model as a web app.
 * Make Earl Grey ice cream.
 * Complete a tour of all the chocolate shops in Portland.
