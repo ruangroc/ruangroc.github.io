@@ -53,7 +53,7 @@ ____
 ### Hobbies + Fun Stuff
 When I'm not working or studying, I really enjoy reading, trying new teas, 
 cooking and baking with and for my friends and family, and playing some (kind of dorky) 
-video games (The Sims 3 or Flight Rising, anyone?). I have also dabbled in bookbinding 
+video games (mainly The Sims 3 or Flight Rising haha). I have also dabbled in bookbinding 
 and I took piano lessons for 12 years of my life, though I rarely have time to play nowadays.
 
 ### Up next on my bucketlist
@@ -62,4 +62,4 @@ and I took piano lessons for 12 years of my life, though I rarely have time to p
 * Complete a tour of all the chocolate shops in Portland.
 * Create a web app to keep track of my Sims 3 family trees.
 * Create a program to calculate the carbon footprint of a meal.
-* Finish [The Broken Earth trilogy by N.K. Jemisin](https://www.goodreads.com/series/112296-the-broken-earth).
+* Finish [The Uninhabitable Earth by David Wallace-Wells](https://www.goodreads.com/book/show/41552709-the-uninhabitable-earth).
