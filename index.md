@@ -6,7 +6,7 @@ tech for social good.
 I am an undergraduate researcher at OSU, mentored by [Dr. Minsuk Kahng](minsuk.com). Currently, my capstone team
 and I are helping Dr. Kahng develop a novel video searching and browsing web application that leverages a deep 
 learning model in order to service custom queries about TV shows. I was also recently accepted into OSU's 
-accelerated master's program, so I exepct to complete my bachelor's in CS by March 2022 and my master's in CS
+accelerated master's program, so I expect to complete my bachelor's in CS by March 2022 and my master's in CS
 by June 2023.
 
 I am also a peer tutor for the College of Engineering and the Treasurer of the 
