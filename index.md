@@ -5,7 +5,9 @@ tech for social good.
 
 I am an undergraduate researcher at OSU, mentored by [Dr. Minsuk Kahng](minsuk.com). Currently, my capstone team
 and I are helping Dr. Kahng develop a novel video searching and browsing web application that leverages a deep 
-learning model in order to service custom queries about TV shows. 
+learning model in order to service custom queries about TV shows. I was also recently accepted into OSU's 
+accelerated master's program, so I exepct to complete my bachelor's in CS by March 2022 and my master's in CS
+by June 2023.
 
 I am also a peer tutor for the College of Engineering and the Treasurer of the 
 [Adaptive Technology Engineering Network](http://groups.engr.oregonstate.edu/aten/)
@@ -37,6 +39,7 @@ ____
 * CS 344, CS 444 - Operating Systems I & II
 * CS 352 - Introduction to Usability
 * CS 361, CS 362 - Fundamentals of Software Engineering I & II
+* CS 499 - Advanced Web Development (focused on learning React)
 
 **Statistics**
 
@@ -57,9 +60,9 @@ video games (mainly The Sims 3 or Flight Rising haha). I have also dabbled in bo
 and I took piano lessons for 12 years of my life, though I rarely have time to play nowadays.
 
 ### Up next on my bucketlist
-* Learn how to train and deploy a machine learning model as a web app.
 * Make Earl Grey ice cream.
 * Complete a tour of all the chocolate shops in Portland.
+* Learn how to train and deploy a machine learning model as a web app.
 * Create a web app to keep track of my Sims 3 family trees.
 * Create a program to calculate the carbon footprint of a meal.
 * Finish [The Uninhabitable Earth by David Wallace-Wells](https://www.goodreads.com/book/show/41552709-the-uninhabitable-earth).
