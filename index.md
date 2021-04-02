@@ -5,7 +5,7 @@ tech for social good.
 
 I am an undergraduate researcher at OSU, mentored by [Dr. Minsuk Kahng](minsuk.com). Currently, my capstone team
 and I are helping Dr. Kahng develop a novel video searching and browsing web application that leverages a deep 
-learning model in order to service custom queries about TV shows. I was also recently accepted into OSU's 
+learning model in order to help users quickly and effectively analyze videos. I was also recently accepted into OSU's 
 accelerated master's program, so I expect to complete my bachelor's in CS by March 2022 and my master's in CS
 by June 2023.
 
@@ -55,14 +55,15 @@ ____
 ____
 ### Hobbies + Fun Stuff
 When I'm not working or studying, I really enjoy reading, trying new teas, 
-cooking and baking with and for my friends and family, and playing some (kind of dorky) 
-video games (mainly The Sims 3 or Flight Rising haha). I have also dabbled in bookbinding 
-and I took piano lessons for 12 years of my life, though I rarely have time to play nowadays.
+cooking and baking with and for my friends and family, and playing some computer 
+games (mainly The Sims 3 and Flight Rising). I have also dabbled in bookbinding 
+(I have made my last four planners) and I took piano lessons for 12 years of my life, 
+but unfortunately I have not had much time in college to keep playing.
 
 ### Up next on my bucketlist
 * Make Earl Grey ice cream.
 * Complete a tour of all the chocolate shops in Portland.
 * Learn how to train and deploy a machine learning model as a web app.
-* Create a web app to keep track of my Sims 3 family trees.
+* Create an application to keep track of my Sims 3 family trees.
 * Create a program to calculate the carbon footprint of a meal.
 * Finish [The Uninhabitable Earth by David Wallace-Wells](https://www.goodreads.com/book/show/41552709-the-uninhabitable-earth).
