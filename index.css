@@ -1,12 +1,29 @@
-#header {
-    background-color: #159957;
-    background-image: linear-gradient(120deg, #155799, #159957);
+/* #header {
+    background-image: linear-gradient(120deg, #cc85ec, #37cd82);
     color: white;
-}
+} */
+
+/* #header {
+    background-image: linear-gradient(120deg, #e9bbff, #6fcd9e);
+    color: black;
+} */
+
+/* nav {
+    background-color: #c37ee2;
+    color: white;
+} */
+
+/* nav {
+    background-color: #e9bbff;
+} */
 
 body {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     margin: 0 auto;
     background-color: ghostwhite;
+}
+
+html {
+    scroll-behavior: smooth;
 }

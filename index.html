@@ -3,64 +3,820 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="tailwind.css" rel="stylesheet">
+        <!-- <link href="tailwind.css" rel="stylesheet"> -->
+        <link rel="icon" type="image/png" href="static/tea_plant.png">
         <link href="index.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
         <title>Anita Ruangrotsakun</title>
     </head>
-    <body>
-        <div class="mx-auto" id="header">
-            <h1 class="text-5xl font-semibold pt-10 pb-8 text-center">Anita Ruangrotsakun</h1>
-            <ul class="flex flex-row p-3 justify-center text-lg">
-                <li class="px-5"><a href="/"> About </a></li>
-                <li class="px-5"><a href="./experience.html"> Experience </a></li>
-                <li class="px-5"><a href="./projects.html"> Projects </a></li>
-                <li class="px-5"><a href="./publications.html"> Publications </a></li>
-            </ul>
-        </div>
+    
+<!-- TODO: add hobbies and photo carousels -->
 
-        <div class="my-6">
-            <div class="flex flex-col mx-auto w-1/2 text-justify">
-                <img src="static/IMG_6743_smaller.jpg" class="w-1/3 flex-row mx-auto py-3" />
-                <p class="py-2">
-                    Hi there! I'm Anita. I'm currently an accelerated master's CS student at Oregon State University.
-                </p>
-                <p class="py-2">
-                    Currently, I'm most interested in learning about full-stack development for machine learning
-                    applications, human-centered AI, and using technology for social good.
-                </p>
-                <p class="py-2">
-                    In my free time, I enjoy reading, bookbinding, baking, discovering new teas, and playing the Sims 3.
-                </p>
-                <p class="py-2">
-                    You can read more about my academic and work experience in the Experience tab or by checking out my resume, 
-                    GitHub, and LinkedIn profiles (linked below).
-                </p>
-                
+    <body class="flex">
+        <aside class="h-screen w-44 fixed top-0 left-0">
+            <nav class="h-screen bg-purple-100 grid grid-rows-3">
+                <ul class="text-left text-lg font-medium row-start-2 row-end-3">
+                    <li class="px-4 py-2">
+                        <a href="#header" class="hover:text-purple-700">Hello!</a>
+                    </li>
+                    <li class="px-4 py-2">
+                        <a href="#education" class="hover:text-purple-700">Education</a>
+                    </li>
+                    <li class="px-4 py-2">
+                        <a href="#experience" class="hover:text-purple-700">Experience</a>
+                        <ul class="text-base px-4">
+                            <li><a href="#industry" class="hover:text-purple-700">Industry</a></li>
+                            <li><a href="#academic" class="hover:text-purple-700">Academic</a></li>
+                            <li><a href="#extracurricular" class="hover:text-purple-700">Extracurricular</a></li>
+                        </ul>
+                    </li>
+                    <li class="px-4 py-2"><a href="#research" class="hover:text-purple-700">Research</a></li>
+                    <li class="px-4 py-2"><a href="#projects" class="hover:text-purple-700">Projects</a></li>
+                    <!-- <li class="px-4 py-2"><a href="#hobbies" class="hover:text-purple-700">Hobbies</a></li> -->
+                    <li class="px-4 py-2"><a href="#contact" class="hover:text-purple-700">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <main class="flex-1 ml-44">
+            <div class="text-center bg-gradient-to-r from-purple-100 to-green-100 py-10" id="header">
+                <h1 class="text-5xl font-semibold pt-10 pb-8 text-center">Anita Ruangrotsakun</h1>
+                <ul class="flex flex-row justify-center text-xs">
+                    <li class="px-2 py-3 w-16"> 
+                        <a href="https://www.linkedin.com/in/anita-ruangrotsakun/" target="_blank" rel="noopener noreferrer"> 
+                            <img src="./static/linkedIn_icon.png" title="View my LinkedIn!" />
+                        </a>
+                    </li>
+                    <li class="px-2 py-3 w-16"> 
+                        <a href="static/Anita_Ruangrotsakun_Resume.pdf"
+                        target="_blank" rel="noopener noreferrer"
+                        > 
+                            <img src="./static/resume-png-resume-icon-1600.png" title="View my resume!"/>
+                        </a>
+                    </li>
+                    <li class="px-2 py-3 w-16"> 
+                        <a href="https://github.com/ruangroc" target="_blank" rel="noopener noreferrer"> 
+                            <img src="./static/github1600.png" title="View my GitHub!" />
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
 
-        <footer class="w-full text-center border-t border-green-500 pin-b">
-            <ul class="flex flex-row justify-center text-xs">
-                <li class="px-4 py-3 w-16"> 
-                    <a href="static/Anita_Ruangrotsakun_Resume.pdf"
-                       target="_blank" rel="noopener noreferrer"
-                    > 
-                        <img src="./static/resume-png-resume-icon-1600.png" title="View my resume!"/>
-                    </a>
-                </li>
-                <li class="px-4 py-3 w-16"> 
-                    <a href="https://github.com/ruangroc" target="_blank" rel="noopener noreferrer"> 
-                        <img src="./static/github1600.png" title="View my GitHub!" />
-                    </a>
-                </li>
-                <li class="px-4 py-3 w-16"> 
-                    <a href="https://www.linkedin.com/in/anita-ruangrotsakun/" target="_blank" rel="noopener noreferrer"> 
-                        <img src="./static/linkedIn_PNG22.png" title="View my LinkedIn!" />
-                    </a>
-                </li>
-            </ul>
-        </footer>
+            <div class="text-left px-4">
+
+                <!-- Hello / Intro -->
+                <div class="row-span-1">
+                    <h1 class="text-2xl font-semibold py-2 text-left">Hello! I'm Anita!</h1>
+                    <div class="flex flex-row">
+                        <div class="w-1/6">
+                            <img src="static/IMG_6743_smaller.jpg" class="object-scale-down" />
+                        </div>
+                        <p class="px-4 w-5/6">
+                            I'm currently completing an accelerated master's degree at Oregon State University with an 
+                            expected graduation date of June 2023. The focus of my master's degree is a blend of 
+                            Human-Computer Interaction, Software Engineering, and Machine Learning. <br><br>
+    
+                            I have interned at Google, Leviton, and Stripe, totaling approximately a year's worth of industry experience. 
+                            I have also contributed to research papers in the explainable AI and visual analytics space, 
+                            mainly in a full-stack development capacity as an undergraduate research assistant. <br><br>
+    
+                            I am currently looking for post-graduation work opportunities where I can do meaningful work applying
+                            technology for social good while continuing to develop my full-stack and ML systems skills.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="row-span-1" id="education">
+                    <h1 class="text-2xl font-semibold py-2 mt-6 text-left">Education</h1>
+                    <div class="container text-left">
+                        <div class="flex flex-col md:grid grid-cols-9 mx-1 p-2 text-black w-3/4">
+
+                            <!-- MS: 2022-2023 -->
+                            <div class="flex md:contents">
+                                <!-- stem -->
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <!-- leaf -->
+                                <div class="col-start-2 col-end-10 p-4 mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">M.S. at Oregon State University</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">March 2022 to June 2023</h4>
+                                    <p class="text-sm">
+                                    Accelerated Master's of Science in Computer Science in Human-Computer Interaction, 
+                                    Software Engineering, and Machine Learning.
+                                    Advised by <a 
+                                    href="https://minsuk.com" target="_blank" rel="noopener noreferrer" 
+                                    class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
+                                    >Dr. Minsuk Kahng</a> (2021-22) 
+                                    and <a 
+                                    href="https://eecs.oregonstate.edu/people/Braynen-Will" target="_blank" rel="noopener noreferrer" 
+                                    class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
+                                    >Dr. Will Braynen</a> (2022-23).
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <!-- BS: 2017-2022 -->
+                            <div class="flex md:contents">
+                                <!-- stem -->
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <!-- leaf -->
+                                <div class="col-start-2 col-end-10 p-4 mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">B.S. at Oregon State University</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">September 2017 to March 2022</h4>
+                                    <p class="text-sm">
+                                    Bachelor's of Science in Computer Science (Systems option) with a Minor in Statistics.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="row-span-1" id="experience">
+                    <!-- Reference: https://tailwindcomponents.com/component/vertical-timeline -->
+                    <h1 class="text-2xl font-semibold px-2 mt-6 text-left">Experience</h1>
+
+                    <!-- TODO: figure out how I want to stylize the timelines -->
+                    <!-- Industry Experience -->
+                    <div class="container text-left" id="industry">
+                        <h2 class="text-xl font-semibold px-2 py-2">Industry Experience</h2>
+                        <div class="flex flex-col md:grid grid-cols-9 mx-1 p-2 text-black w-3/4">
+
+                            <!-- Stripe 2022 -->
+                            <div class="flex md:contents">
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">Software Engineering Intern @ Stripe</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">June to September 2022 in Seattle, WA</h4>
+                                    <p class="text-sm">
+                                    Internship at 
+                                    <a 
+                                    href="https://stripe.com/" target="_blank" rel="noopener noreferrer" 
+                                    class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
+                                    >Stripe</a> in Seattle on the JavaScript Infrastructure Team. 
+                                    I enhanced a widely-used, internal TypeScript library for collecting frontend analytics data 
+                                    to improve developer productivity. 
+                                    Now ~200 million analytics events traverse the upgraded library code paths everyday.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <!-- Leviton 2021 -->
+                            <div class="flex md:contents">
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">Software Engineering Intern @ Leviton</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">June to December 2021 in Tualatin, OR</h4>
+                                    <p class="text-sm">
+                                    Internship at 
+                                    <a 
+                                    href="https://www.leviton.com/en" target="_blank" rel="noopener noreferrer" 
+                                    class="underline underline-offset-4 text-purple-700 hover:text-purple-400">
+                                        Leviton</a>. 
+                                    I worked on five projects over the course of six months and utilized a variety of technologies
+                                    such as Python, Flask, Keras, Tkinter, Lemur, AWS, and Docker. 
+                                    An overview of some of the projects are in my 
+                                    <a href="static/MECOP Final Presentation - Public.pdf"  
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="underline underline-offset-4 text-purple-700 hover:text-purple-400">
+                                        final presentation
+                                    </a>.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Google 2019 -->
+                            <div class="flex md:contents">
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">Engineering Practicum Intern @ Google</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">June to September 2019 in Mountain View, CA</h4>
+                                    <p class="text-sm">
+                                    Internship at Google on the 
+                                    <a href="https://www.google.com/get/spectrumdatabase/" target="_blank" rel="noopener noreferrer" 
+                                    class="underline underline-offset-4 text-purple-700 hover:text-purple-400">Network Planner team </a>.
+                                    I worked on a web application and developed some full-stack features to allow users to upload 
+                                    CSVs and visualize geo-tagged data for the purposes of planning a shared spectrum ecosystem.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Academic Experience -->
+                    <div class="container text-left" id="academic">
+                        <h2 class="text-xl font-semibold px-2 py-2">Academic Experience</h2>
+                        <div class="flex flex-col md:grid grid-cols-9 mx-1 p-2 text-black w-3/4">
+
+                            <!-- GTA 2022 -->
+                            <div class="flex md:contents">
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">Graduate Teaching Assistant</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">March 2022 to present</h4>
+                                    <p class="text-sm">
+                                        As a teaching assistant, I proctor exams, grade assignments, hold 
+                                        office hours, and lead recitation sessions.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <!-- DIV Lab -->
+                            <div class="flex md:contents">
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">DIV Lab Undergraduate Research Assistant</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">July 2020 to March 2022</h4>
+                                    <p class="text-sm">
+                                        I helped develop interactive web browser interfaces for three explainable AI (XAI) 
+                                        papers using a variety of tools, such as Svelte, D3.js, Flask, NodeJS, SQL, and Docker.
+                                        Please see 
+                                        <a href="#research" class="underline underline-offset-4 text-purple-700 hover:text-purple-400">Research</a> 
+                                        for additional details.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Tutoring -->
+                            <div class="flex md:contents">
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">College of Engineering Peer Tutor</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">November 2019 to March 2022</h4>
+                                    <p class="text-sm">
+                                    For up to 10 hours each week, I helped students design and debug their C, C++, Python,
+                                    and/or JavaScript programs. I tutored for a variety of classes, including data structures,
+                                    algorithms, operating systems, and web development.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- URSA -->
+                            <div class="flex md:contents">
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">URSA Undergraduate Research Assistant</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">February to June 2019</h4>
+                                    <p class="text-sm">
+                                    I worked with OSU's 
+                                    <a href="http://research.engr.oregonstate.edu/hmtl/" 
+                                    class="underline underline-offset-4 text-purple-700 hover:text-purple-400">
+                                    Human Machine Teaming Laboratory</a> 
+                                    to transform five R scripts for processing swarm simulation data to Python to improve 
+                                    readability, modularity, and maintainability and to reduce runtime by over 50 percent. 
+                                    I also presented my work at OSU Celebrating Undergraduate Excellence (CUE) in May 2019.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Extracurricular Experience -->
+                    <!-- Maybe no timeline for this, just an ordered list of what I've been most involved in -->
+                    <div class="container text-left" id="extracurricular">
+                        <h2 class="text-xl font-semibold px-2 py-2">Extracurricular Experience</h2>
+                        <div class="flex flex-col md:grid grid-cols-9 mx-1 p-2 text-black w-3/4">
+
+                            <!-- Future SWEs Club -->
+                            <div class="flex md:contents">
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">Future SWEs Club</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">November 2022 to present</h4>
+                                    <p class="text-sm">
+                                        I attend weekly meetups to practice LeetCode problems and do mock interviews
+                                        with fellow CS students who are also looking for software engineering jobs
+                                        and internships.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- AIGSA -->
+                            <div class="flex md:contents">
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <div class="col-start-2 col-end-10 p-4 rounded-xl  mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">Artificial Intelligence Graduate Student Association (AIGSA)</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">September 2022 to present</h4>
+                                    <p class="text-sm">
+                                        I was a mentor in the <a href="https://www.aigsa.club/"
+                                        class="underline underline-offset-4 text-purple-700 hover:text-purple-400">
+                                        Artificial Intelligence Application Support Program (AIASP)</a>. I volunteered
+                                        to assist folks historically underrepresented in the field as they applied to AI 
+                                        graduate programs (M.S./Ph.D.) at OSU.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- ETRE -->
+                            <div class="flex md:contents">
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <div class="col-start-2 col-end-10 p-4 rounded-xl  mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">Engineers That REad (ETRE)</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">September 2020 to present</h4>
+                                    <p class="text-sm">
+                                        ETRE is a community of students interested in discussing the role that engineering plays in systemic racism 
+                                        and a space to discuss how racialized topics shape our responsibilities as engineers. 
+                                        Each term, I help organize the book selection, club advertising, and meeting logistics in addition
+                                        to participating in weekly, student-facilitated discussion groups.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- ATEN -->
+                            <div class="flex md:contents">
+                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                    <div class="h-full w-6 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
+                                        <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
+                                    </div>
+                                </div>
+                                <div class="col-start-2 col-end-10 p-4 rounded-xl  mr-auto">
+                                    <h3 class="font-semibold text-lg mb-1">Adaptive Technology Engineering Network (ATEN)</h3>
+                                    <h4 class="mb-1 font-medium text-green-600">Fall 2018 to present</h4>
+                                    <p class="text-sm">
+                                        I joined <a href="https://groups.engr.oregonstate.edu/aten/"
+                                        class="underline underline-offset-4 text-purple-700 hover:text-purple-400">ATEN</a>
+                                        as a sophomore and have participated in annual STEM camps for kids with disabilities and 
+                                        client-based assistive technology projects. I have also been elected as club Treasurer and,
+                                        later, club Secretary.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Research -->
+                <div class="row-span-1" id="research">
+                    <h1 class="text-2xl font-semibold px-2 mt-6 text-left">Research</h1>
+                    <div class="flex flex-row flex-wrap w-full text-left">
+                            
+                        <!-- Papers are ordered from newest to oldest -->
+                        <!-- Need to update paper details -->
+        
+                        <!-- VIS 2022 DendroMap -->
+                        <div class="m-3">
+                            <h3 class="font-semibold">Visual Exploration of Large-Scale Image Datasets for Machine Learning with Treemaps</h3>
+                            <h4 class="mb-1 font-medium text-sm">
+                                Donald Bertucci, Md Montaser Hamid, Yashwanthi Anand, <i>Anita Ruangrotsakun</i>, Delyar Tabatabai, 
+                                Melissa Perez, and Minsuk Kahng.
+                            </h4>
+                            <p class="text-sm">
+                                IEEE Transactions on Visualization and Computer Graphics (
+                                <span class="text-green-600">VIS'22</span>
+                                ), 2023. 
+
+                                [<a href="https://arxiv.org/abs/2205.06935" target="_blank" rel="noopener noreferrer"
+                                class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
+                                >arxiv</a>]
+
+                                [<a href="https://doi.org/10.1109/TVCG.2022.3209425" target="_blank" rel="noopener noreferrer"
+                                class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
+                                >doi</a>]
+                            </p>
+                        </div>
+        
+                        <!-- ICAPS 2022 CheckList -->
+                        <div class="m-3">
+                            <h3 class="font-semibold">Beyond Value: CheckList for Testing Inferences in Planning-Based RL</h3>
+                            <h4 class="mb-1 font-medium text-sm">
+                                Kin-Ho Lam, Delyar Tabatabai, Jed Irvine, Donald Bertucci, <i>Anita Ruangrotsakun</i>, 
+                                Minsuk Kahng, and Alan Fern. 
+                            </h4>
+                            <p class="text-sm">
+                                32nd International Conference on Automated Planning and Scheduling (
+                                <span class="text-green-600">ICAPS'22</span>
+                                ), 2022.
+        
+                                [<a href="https://arxiv.org/abs/2206.02039" target="_blank" rel="noopener noreferrer"
+                                class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
+                                >arxiv</a>]
+                            </p>
+                        </div>
+        
+                        <!-- VIS 2021 XAI -->
+                        <div class="m-3">
+                            <h3 class="font-semibold">"Why did my AI agent lose?": Visual Analytics for Scaling Up AAR/AI</h3>
+                            <h4 class="mb-1 font-medium text-sm">
+                                Delyar Tabatabai, <i>Anita Ruangrotsakun</i>, Jed Irvine, Jonathan Dodge, Zeyad Shureih, Kin-Ho Lam, 
+                                Margaret Burnett, Alan Fern, and Minsuk Kahng.
+                            </h4>
+                            <p class="text-sm">
+                                IEEE Visualization Conference (
+                                <span class="text-green-600">VIS'21</span>
+                                ), 2021.
+                                
+                                [<a href="https://ieeexplore.ieee.org/document/9623268" target="_blank" rel="noopener noreferrer"
+                                class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
+                                >doi</a>]
+        
+                                [<a href="/static/aarai-vis21.pdf" target="_blank" rel="noopener noreferrer"
+                                class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
+                                >pdf</a>]
+                            </p>
+                        </div>
+        
+                        <!-- AI Letters 2021 -->
+                        <div class="m-3">
+                            <h3 class="font-semibold">"No Clear Winner" to an Effective XAI Process: An Empirical Journey</h3>
+                            <h4 class="mb-1 font-medium text-sm">
+                                Jonathan Dodge, Andrew Anderson, Roli Khanna, Jed Irvine, Rupika Dikkala, Kin-Ho Lam, Delyar Tabatabai, 
+                                <i>Anita Ruangrotsakun</i>, Zeyad Shureih, Minsuk Kahng, Alan Fern, and Margaret Burnett.
+                            </h4>
+                            <p class="text-sm">
+                                AI Letters 2021.
+                                
+                                [<a href="https://doi.org/10.1002/ail2.36" target="_blank" rel="noopener noreferrer"
+                                class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
+                                >doi</a>]
+        
+                                [<a href="/static/Applied AI Letters - 2021 - Dodge - From  no clear winner  to an effective Explainable Artificial Intelligence process  An.pdf" target="_blank" rel="noopener noreferrer"
+                                class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
+                                >pdf</a>]
+                            </p>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <!-- CS Projects -->
+                <!-- To add pictures or not?? maybe video would be better where I have them? -->
+                <div class="row-span-1" id="projects">
+                    <h1 class="text-2xl font-semibold px-2 mt-6 text-left">Projects</h1>
+
+                    <div class="flex flex-col flex-wrap w-full text-left">
+                            
+                        <!-- CS 568 term project -->
+                        <div class="m-3">
+                            <h3 class="font-semibold">One-Armed Cooking App</h3>
+                            <h4 class="mb-1 font-medium text-sm text-green-600">
+                                Skills: Figma, UI/UX Design, Inclusive Design, Cognitive Walkthroughs
+                            </h4>
+                            <p class="text-sm">
+                                My team and I practiced inclusive design by developing a One-ArmedMag in the style of
+                                <a href="http://gendermag.org/index.php" class="underline underline-offset-4 text-purple-700 hover:text-purple-400">GenderMag</a> 
+                                for people who do not have full functional use of both hands and arms. 
+                                We developed Figma prototypes for three use cases: following a recipe, meal planning / in-app grocery shopping, and adjusting the
+                                level of adaptation presented by the app.
+                            </p>
+                            <!-- relevant links -->
+                            <div class="mt-1 flex flex-row flex-wrap text-sm">
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://www.figma.com/proto/uyo2iA1CBdfPDHi5rj8t5N/Recipes?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2"  target="_blank" rel="noopener noreferrer">
+                                        Figma: Recipes
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://www.figma.com/proto/Med88QOXTNypHjCnGeVkqA/Groceries?node-id=1%3A292&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A292"  target="_blank" rel="noopener noreferrer">
+                                        Figma: Groceries
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://www.figma.com/proto/PyoxJwDsorWjRNWa5vvx2F/Techniques?node-id=104%3A435&scaling=scale-down&page-id=0%3A1&starting-point-node-id=104%3A435"  target="_blank" rel="noopener noreferrer">
+                                        Figma: Adaptations
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="static/Project 6_ One-Armed.pdf"  target="_blank" rel="noopener noreferrer">
+                                        Final Presentation
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="static/Inclusive_Design_Final_Project.pdf"  target="_blank" rel="noopener noreferrer">
+                                        Final Report
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+        
+                        <!-- CS 549 project-->
+                        <div class="m-3">
+                            <h3 class="font-semibold">Last Stops: Travel Planner</h3>
+                            <h4 class="mb-1 font-medium text-sm text-green-600">
+                                Skills: Svelte, Vercel, Figma, Visual Analytics, Data Visualization, UI/UX Design, JavaScript
+                            </h4>
+                            <p class="text-sm">
+                                My team and I developed a visual analytics interface that allows people to create a  
+                                bucket list of places in the US to visit before climate change ravages the landscape. 
+                                We developed this web app using Svelte and a variety of climate risk projection data.
+                            </p>
+                            <!-- relevant links -->
+                            <div class="mt-1 flex flex-row flex-wrap text-sm">
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://last-stops-cs549.vercel.app/"  target="_blank" rel="noopener noreferrer">
+                                        Website
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://docs.google.com/presentation/d/1w37kYxB-5XBn1UAfZ2DACIXsaO9kRt3sncZK44g2vIE/edit?usp=sharing"  target="_blank" rel="noopener noreferrer">
+                                        Final Presentation
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+        
+                        <!-- Leviton projects -->
+                        <div class="m-3">
+                            <h3 class="font-semibold">Leviton Internship Projects</h3>
+                            <h4 class="mb-1 font-medium text-sm text-green-600">
+                                Skills: Python, Lemur, Flask, Tkinter, Keras, Docker, AWS
+                            </h4>
+                            <p class="text-sm">
+                                My main project was to set up Lemur, a certificate management system created by Netflix, for generating and
+                                organizing TLS certificates and keys that will be used to secure some of Leviton's lighting systems. 
+                                I also implemented some proof of concept applications using Tkinter and Flask for integration tests 
+                                with other Leviton components.
+                                <br><br>
+                                Additionally, I completed several smaller projects over the course of my internship:
+                                I programmed lighting controllers to receive firmware updates over the air;
+                                I evaluated several automated web application vulnerability scanning tools;
+                                and I conducted initial investigations into whether a machine learning model trained on
+                                data collected from an ST Time of Flight sensor can be used for privacy-preserving people detection.
+                            </p>
+                            <!-- relevant links -->
+                            <div class="mt-1 flex flex-row flex-wrap text-sm">
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="static/MECOP Final Report - Public.pdf"  target="_blank" rel="noopener noreferrer">
+                                        Final Report
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="static/MECOP Final Presentation - Public.pdf"  target="_blank" rel="noopener noreferrer">
+                                        Final Presentation
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+        
+                        <!-- CS 565 term project -->
+                        <div class="m-3">
+                            <h3 class="font-semibold">Redesigning VoTT</h3>
+                            <h4 class="mb-1 font-medium text-sm text-green-600">
+                                Skills: Figma, User Interviews, UI/UX Design, Human-Computer Interaction
+                            </h4>
+                            <p class="text-sm">
+                                My team and I redesigned the object detection labeling software, 
+                                <a href="https://github.com/microsoft/VoTT" class="underline underline-offset-4 text-purple-700 hover:text-purple-400">VoTT</a>, 
+                                for our Human-Computer Interaction term project. I helped organize and conduct user interviews 
+                                and was a primary contributor to the Figma prototype.
+                            </p>
+                            <!-- relevant links -->
+                            <div class="mt-1 flex flex-row flex-wrap text-sm">
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://www.figma.com/proto/XUXuO7xwqNxkypspVNV6cs/Project-5-Digital-Prototype?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"  target="_blank" rel="noopener noreferrer">
+                                        Prototype
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://docs.google.com/document/d/144P0MnZ7b4oUbY8Kk6e3_-uYxs_wyvS9EfpUwglKUtY/edit?usp=sharing"  target="_blank" rel="noopener noreferrer">
+                                        Final Report
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Spotify Interactive -->
+                        <div class="m-3">
+                            <h3 class="font-semibold">Spotify Interactive</h3>
+                            <h4 class="mb-1 font-medium text-sm text-green-600">
+                                Skills: React, Spotify API, Redux, Vercel, UI/UX Design, JavaScript
+                            </h4>
+                            <p class="text-sm">
+                                My team and I created a React app to utilize the Spotify API. The main features include a 
+                                playlist combiner and an animated cat visualization determined by the music you've listened
+                                to in the last four weeks, six months, and all time.
+                            </p>
+                            <!-- relevant links -->
+                            <div class="mt-1 flex flex-row flex-wrap text-sm">
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://spotify-interactive.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                        Website
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://github.com/ruangroc/final-project-team4" target="_blank" rel="noopener noreferrer">
+                                        GitHub
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- React Weather Forecast -->
+                        <!-- TODO: fix the app, then do this write up. I think I deleted the API key it was using. -->
+                        <!-- <div class="m-3">
+                            <p class="font-bold text-lg">Weather Forecast</p>
+                            <p>
+                                Screenshot, description, contributions, skills, links
+                            </p>
+                            <div class="mt-1 flex flex-row flex-wrap text-sm">
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://weather-forecast-cyan.vercel.app/"  target="_blank" rel="noopener noreferrer">
+                                        Website
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://github.com/ruangroc/WeatherForecast"  target="_blank" rel="noopener noreferrer">
+                                        GitHub
+                                    </a>
+                                </button>
+                            </div>
+                        </div> -->
+
+                        <!-- ST 441 migration project -->
+                        <div class="m-3">
+                            <h3 class="font-semibold">Modeling Human Migration</h3>
+                            <h4 class="mb-1 font-medium text-sm text-green-600">
+                                Skills: R, Machine Learning, Data Visualization
+                            </h4>
+                            <p class="text-sm">
+                                For the ST 441 Probability, Computating, and Simulation in Statistics class,
+                                I tried to implement a much simpler, smaller version of of the work Caleb Robinson 
+                                and Bistra Dilkina completed in <a href="https://doi.org/10.1145/3209811.3209868" 
+                                class="underline underline-offset-4 text-purple-700 hover:text-purple-400">
+                                "A Machine Learning Approach to Modeling Human Migration"</a> using R.
+                            </p>
+                            <!-- relevant links -->
+                            <div class="mt-1 flex flex-row flex-wrap text-sm">
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://github.com/ruangroc/ruangroc_project_migration"  target="_blank" rel="noopener noreferrer">
+                                        GitHub
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://github.com/ruangroc/ruangroc_project_migration/blob/main/analysis/compare_with_historical_data.md"  target="_blank" rel="noopener noreferrer">
+                                        Historical Comparison
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://github.com/ruangroc/ruangroc_project_migration/blob/main/analysis/simulate_future_migration.md"  target="_blank" rel="noopener noreferrer">
+                                        Migration Simulation
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- CS 352 term project -->
+                        <div class="m-3">
+                            <h3 class="font-semibold">EventMe: Event Planning App</h3>
+                            <h4 class="mb-1 font-medium text-sm text-green-600">
+                                Skills: Figma, User Interviews, UI/UX Design, Human-Computer Interaction
+                            </h4>
+                            <p class="text-sm">
+                                My team and I developed a prototype for an event planning app designed to make
+                                organizing club meetings much easier. I helped conduct a user interview with a 
+                                club officer and played a primary role in developing the Figma prototype.
+                            </p>
+                            <!-- relevant links -->
+                            <div class="mt-1 flex flex-row flex-wrap text-sm">
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://www.figma.com/proto/U3e2MpR2CTbHhK7MUMyOAD/EventMe-Prototype?scaling=scale-down&page-id=0%3A1&node-id=3%3A0"  target="_blank" rel="noopener noreferrer">
+                                        Prototype
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://docs.google.com/document/d/1FzBYf2nlWDjgA7UQTAOIJ377gSvMAvOSLJWnMAXkkC4/edit?usp=sharing"  target="_blank" rel="noopener noreferrer">
+                                        Final Report
+                                    </a>
+                                </button>
+                                <button class="text-purple-700 background-transparent font-semibold uppercase pr-3 outline-none focus:outline-none hover:text-purple-400" type="button">
+                                    <a href="https://docs.google.com/document/d/1Jvc6LGoGuf1hsvkAcZL1awoD0_XmMwkrk_2UCuQbqM0/edit?usp=sharing"  target="_blank" rel="noopener noreferrer">
+                                        Evaluations
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+                <!-- Hobbies -->
+                <!-- <div class="row-span-1" id="hobbies">
+                    <h1 class="text-2xl font-semibold px-2 mt-6 text-left">Hobbies</h1>
+
+                    <div class="flex flex-col flex-wrap w-full text-left">
+                            
+                        <div class="m-3">
+                            <p class="font-bold text-xl">Bookbinding</p>
+                            <p>
+                                Bookbinding carousel
+                            </p>
+                        </div>
+        
+                        <div class="m-3">
+                            <p class="font-bold text-xl">Food</p>
+                            <p>
+                                Foodie carousel
+                            </p>
+                        </div>
+        
+                        <div class="m-3">
+                            <p class="font-bold text-xl">Music</p>
+                            <p>
+                                Music carousel
+                            </p>
+                        </div>
+        
+                        <div class="m-3">
+                            <p class="font-bold text-xl">Movies</p>
+                            <p>
+                                Movies carousel
+                            </p>
+                        </div>
+        
+                    </div>
+                </div> -->
+
+                <!-- Contact -->
+                <div class="row-span-1" id="contact">
+                    <h1 class="text-2xl font-semibold px-2 mt-6 text-left">Contact</h1>
+                    <ul class="flex flex-row justify-center text-xs text-center">
+                        <li class="px-6 py-3 w-24"> 
+                            <a href="https://www.linkedin.com/in/anita-ruangrotsakun/" target="_blank" rel="noopener noreferrer"> 
+                                <img src="./static/linkedIn_icon.png" title="View my LinkedIn!" />
+                            </a>
+                            <p>LinkedIn</p>
+                        </li>
+                        <li class="px-6 py-3 w-24"> 
+                            <a href="static/Anita_Ruangrotsakun_Resume.pdf"
+                            target="_blank" rel="noopener noreferrer"
+                            > 
+                                <img src="./static/resume-png-resume-icon-1600.png" title="View my resume!"/>
+                            </a>
+                            <p>Resume</p>
+                        </li>
+                        <li class="px-6 py-3 w-24"> 
+                            <a href="https://github.com/ruangroc" target="_blank" rel="noopener noreferrer"> 
+                                <img src="./static/github1600.png" title="View my GitHub!" />
+                            </a>
+                            <p>GitHub</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        
     </body>
 </html>
