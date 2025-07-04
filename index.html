@@ -13,11 +13,11 @@
     </head>
 
     <body>
-        <header class="w-full bg-gradient-to-r from-purple-100 to-green-100 flex flex-wrap py-6">
+        <header class="bg-gradient-to-r from-purple-100 to-green-100 py-6">
             <div class="col mx-auto">
                 <div class="flex flex-row justify-center">
                     <img src="static/tea_plant.png" class="w-12 h-12 mx-2" />
-                    <h1 class="text-4xl font-semibold py-2">Anita Ruangrotsakun</h1>
+                    <h1 class="lg:text-4xl text-2xl font-semibold py-2">Anita Ruangrotsakun</h1>
                 </div>
                 <nav class="flex flex-row justify-center">
                     <ul class="flex text-sm md:text-lg font-medium">
@@ -32,12 +32,12 @@
         </header>
 
         <main>
-            <div class="text-left mx-auto w-3/4">
+            <div class="text-left w-fit lg:w-2/3 lg:mx-auto 2xl:w-1/2">
 
                 <!-- Hello / Intro -->
-                <div class="row-span-1">
-                    <h1 class="text-2xl font-semibold pt-6 pb-2 text-left">Hello! I'm Anita!</h1>
-                    <div class="flex md:flex-row flex-col">
+                <div class="row-span-1 text-center md:text-left">
+                    <h1 class="text-2xl font-semibold pt-6 pb-2">Hello! I'm Anita!</h1>
+                    <div class="flex md:flex-row md:items-start flex-col items-center">
                         <div class="w-2/3 mb-4 md:w-1/3">
                             <!-- <img src="static/IMG_6743_smaller.jpg" class="object-scale-down" /> -->
                             <img src="static/KA32.jpg" class="object-scale-down" />
@@ -47,15 +47,14 @@
                             <a href="https://www.gomomento.com/" target="_blank" rel="noopener noreferrer" 
                             class="underline underline-offset-4 text-purple-700 hover:text-purple-400">Momento</a> 
                             on the Developer Ecosystem team. I contribute to a variety of the gRPC client SDKs 
-                            (e.g. JavaScript, Go, Rust, Swift) for Momento's serverless caching and pubsub services.
-                            I'm learning a lot about cloud-based infrastructure and aiming to provide an excellent 
-                            developer experience to our customers. 
+                            (e.g. TypeScript/Node.js, Go, Rust, Swift) for Momento's serverless caching and pubsub services, 
+                            aiming to provide an excellent developer experience to our customers. 
                             <br><br>
 
                             Before Momento, I attended Oregon State University, where I earned my bachelor's and 
                             master's degrees in computer science. I focused a lot of my learning and research assistant
                             work at the intersection of software engineering, human-computer interaction, and machine learning.
-                            Besides school, I have also completed software engineering internships at Google, Leviton, and Stripe. 
+                            I have also completed software engineering internships at Google, Leviton, and Stripe. 
                             <br><br>
                             
                             In my free time, I like hanging out with my cats and reading at various cafes in the PNW. 
@@ -69,23 +68,23 @@
 
                 <!-- Education -->
                 <div class="row-span-1" id="education">
-                    <h1 class="text-2xl font-semibold py-2 mt-6 text-left">Education</h1>
+                    <h1 class="text-2xl font-semibold px-2 mt-6 text-left">Education</h1>
                     <div class="container text-left">
                         <div class="flex flex-col md:grid grid-cols-9 mx-1 p-2 text-black w-3/4">
 
                             <!-- MS: 2022-2023 -->
                             <div class="flex md:contents">
                                 <!-- stem -->
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
                                     </div>
                                 </div>
                                 <!-- leaf -->
-                                <div class="col-start-2 col-end-10 p-4 mr-auto">
+                                <div class="col-start-2 col-end-10 py-4 mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">M.S. at Oregon State University</h3>
-                                    <h4 class="mb-1 text-green-600">March 2022 to September 2023</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">March 2022 to September 2023</h4>
                                     <p class="text-sm">
                                     Accelerated Master's of Science in Computer Science in Human-Computer Interaction, 
                                     Software Engineering, and Machine Learning.
@@ -122,16 +121,16 @@
                             <!-- BS: 2017-2022 -->
                             <div class="flex md:contents">
                                 <!-- stem -->
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
                                     </div>
                                 </div>
                                 <!-- leaf -->
-                                <div class="col-start-2 col-end-10 p-4 mr-auto">
+                                <div class="col-start-2 col-end-10 py-4 mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">B.S. at Oregon State University</h3>
-                                    <h4 class="mb-1 text-green-600">September 2017 to March 2022</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">September 2017 to March 2022</h4>
                                     <p class="text-sm">
                                     Bachelor's of Science in Computer Science (Systems option) with a Minor in Statistics.
                                     </p>
@@ -154,7 +153,7 @@
 
                             <!-- Momento! -->
                             <div class="flex md:contents">
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
@@ -162,7 +161,7 @@
                                 </div>
                                 <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">Software Engineer @ Momento</h3>
-                                    <h4 class="mb-1 text-green-600">July 2023 to present, remote</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">July 2023 to present, remote</h4>
                                     <p class="text-sm">
                                     As a <a href="https://www.gomomento.com/" target="_blank" rel="noopener noreferrer" 
                                         class="underline underline-offset-4 text-purple-700 hover:text-purple-400">Momento</a>  
@@ -170,7 +169,7 @@
                                     applications to provide an excellent developer experience for interfacing with Momento's 
                                     serverless products.
                                     </p>
-                                    <p class="text-xs text-green-600 mt-1">
+                                    <p class="text-sm text-green-700 font-medium mt-1">
                                         Skills: AWS, Node.js, JavaScript, integration testing, open-source SDK releases
                                     </p>
                                 </div>
@@ -178,7 +177,7 @@
 
                             <!-- Stripe 2022 -->
                             <div class="flex md:contents">
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
@@ -186,7 +185,7 @@
                                 </div>
                                 <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">Software Engineering Intern @ Stripe</h3>
-                                    <h4 class="mb-1 text-green-600">June to September 2022 in Seattle, WA</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">June to September 2022 in Seattle, WA</h4>
                                     <p class="text-sm">
                                     Internship at 
                                     <a 
@@ -197,7 +196,7 @@
                                     to improve developer productivity. 
                                     Now ~200 million analytics events traverse the upgraded library code paths everyday.
                                     </p>
-                                    <p class="text-xs text-green-600 mt-1">
+                                    <p class="text-sm text-green-700 font-medium mt-1">
                                         Skills: React, TypeScript, Splunk, unit testing, phased rollout
                                     </p>
                                 </div>
@@ -205,7 +204,7 @@
                             
                             <!-- Leviton 2021 -->
                             <div class="flex md:contents">
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
@@ -213,7 +212,7 @@
                                 </div>
                                 <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">Software Engineering Intern @ Leviton</h3>
-                                    <h4 class="mb-1 text-green-600">June to December 2021 in Tualatin, OR</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">June to December 2021 in Tualatin, OR</h4>
                                     <p class="text-sm">
                                     Internship at 
                                     <a 
@@ -228,7 +227,7 @@
                                         final presentation
                                     </a>.
                                     </p>
-                                    <p class="text-xs text-green-600 mt-1">
+                                    <p class="text-sm text-green-700 font-medium mt-1">
                                         Skills: Python, Flask, Keras, Tkinter, Lemur, AWS, Docker, Bash scripting, Yocto, MQTT
                                     </p>
                                 </div>
@@ -236,7 +235,7 @@
 
                             <!-- Google 2019 -->
                             <div class="flex md:contents">
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
@@ -244,7 +243,7 @@
                                 </div>
                                 <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">Engineering Practicum Intern @ Google</h3>
-                                    <h4 class="mb-1 text-green-600">June to September 2019 in Mountain View, CA</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">June to September 2019 in Mountain View, CA</h4>
                                     <p class="text-sm">
                                     Internship at Google on the 
                                     <a href="https://www.google.com/get/spectrumdatabase/" target="_blank" rel="noopener noreferrer" 
@@ -252,7 +251,7 @@
                                     I worked on a web application and developed some full-stack features to allow users to upload 
                                     CSVs and visualize geo-tagged data for the purposes of planning a shared spectrum ecosystem.
                                     </p>
-                                    <p class="text-xs text-green-600 mt-1">
+                                    <p class="text-sm text-green-700 font-medium mt-1">
                                         Skills: Angular, proto-buffers, C++, unit testing, data visualization
                                     </p>
                                 </div>
@@ -267,7 +266,7 @@
 
                             <!-- GTA 2022 -->
                             <div class="flex md:contents">
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
@@ -275,7 +274,7 @@
                                 </div>
                                 <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">Graduate Teaching Assistant</h3>
-                                    <h4 class="mb-1 text-green-600">March 2022 to present</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">March 2022 to present</h4>
                                     <p class="text-sm">
                                         As a teaching assistant, I proctor exams, grade assignments, hold 
                                         office hours, and lead recitation sessions.
@@ -285,7 +284,7 @@
                             
                             <!-- DIV Lab -->
                             <div class="flex md:contents">
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
@@ -293,7 +292,7 @@
                                 </div>
                                 <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">DIV Lab Undergraduate Research Assistant</h3>
-                                    <h4 class="mb-1 text-green-600">July 2020 to March 2022</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">July 2020 to March 2022</h4>
                                     <p class="text-sm">
                                         I helped develop interactive web browser interfaces for three explainable AI (XAI) 
                                         papers using a variety of tools, such as Svelte, D3.js, Flask, NodeJS, SQL, and Docker.
@@ -306,7 +305,7 @@
 
                             <!-- Tutoring -->
                             <div class="flex md:contents">
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
@@ -314,7 +313,7 @@
                                 </div>
                                 <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">College of Engineering Peer Tutor</h3>
-                                    <h4 class="mb-1 text-green-600">November 2019 to March 2022</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">November 2019 to March 2022</h4>
                                     <p class="text-sm">
                                     For up to 10 hours each week, I helped students design and debug their C, C++, Python,
                                     and/or JavaScript programs. I tutored for a variety of classes, including data structures,
@@ -325,7 +324,7 @@
 
                             <!-- URSA -->
                             <div class="flex md:contents">
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
@@ -333,7 +332,7 @@
                                 </div>
                                 <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">URSA Undergraduate Research Assistant</h3>
-                                    <h4 class="mb-1 text-green-600">February to June 2019</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">February to June 2019</h4>
                                     <p class="text-sm">
                                     I worked with OSU's 
                                     <a href="http://research.engr.oregonstate.edu/hmtl/" 
@@ -356,7 +355,7 @@
 
                             <!-- Future SWEs Club -->
                             <div class="flex md:contents">
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
@@ -364,7 +363,7 @@
                                 </div>
                                 <div class="col-start-2 col-end-10 p-4 rounded-xl mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">Future SWEs Club</h3>
-                                    <h4 class="mb-1 text-green-600">November 2022 to June 2023</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">November 2022 to June 2023</h4>
                                     <p class="text-sm">
                                         I attend weekly meetups to practice LeetCode problems and do mock interviews
                                         with fellow CS students who are also looking for software engineering jobs
@@ -375,7 +374,7 @@
 
                             <!-- AIGSA -->
                             <div class="flex md:contents">
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
@@ -383,7 +382,7 @@
                                 </div>
                                 <div class="col-start-2 col-end-10 p-4 rounded-xl  mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">Artificial Intelligence Graduate Student Association (AIGSA)</h3>
-                                    <h4 class="mb-1 text-green-600">September 2022 to June 2023</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">September 2022 to June 2023</h4>
                                     <p class="text-sm">
                                         I was a mentor in the <a href="https://www.aigsa.club/"
                                         class="underline underline-offset-4 text-purple-700 hover:text-purple-400">
@@ -396,7 +395,7 @@
 
                             <!-- ETRE -->
                             <div class="flex md:contents">
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
@@ -404,7 +403,7 @@
                                 </div>
                                 <div class="col-start-2 col-end-10 p-4 rounded-xl  mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">Engineers That REad (ETRE)</h3>
-                                    <h4 class="mb-1 text-green-600">September 2020 to June 2023</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">September 2020 to June 2023</h4>
                                     <p class="text-sm">
                                         ETRE is a community of students interested in discussing the role that engineering plays in systemic racism 
                                         and a space to discuss how racialized topics shape our responsibilities as engineers. 
@@ -416,7 +415,7 @@
 
                             <!-- ATEN -->
                             <div class="flex md:contents">
-                                <div class="col-start-1 mr-10 md:mx-auto relative">
+                                <div class="col-start-1 lg:mr-10 mr-5 relative">
                                     <div class="h-full w-6 flex items-center justify-center">
                                         <div class="h-full w-1 bg-purple-200 pointer-events-none"></div>
                                         <div class="w-4 h-4 absolute top-1/2 -mt-3 rounded-full bg-purple-300"></div>
@@ -424,7 +423,7 @@
                                 </div>
                                 <div class="col-start-2 col-end-10 p-4 rounded-xl  mr-auto">
                                     <h3 class="font-semibold text-lg mb-1">Adaptive Technology Engineering Network (ATEN)</h3>
-                                    <h4 class="mb-1 text-green-600">September 2018 to June 2023</h4>
+                                    <h4 class="mb-1 text-green-700 font-medium">September 2018 to June 2023</h4>
                                     <p class="text-sm">
                                         I joined <a href="https://groups.engr.oregonstate.edu/aten/"
                                         class="underline underline-offset-4 text-purple-700 hover:text-purple-400">ATEN</a>
@@ -441,7 +440,7 @@
                 <!-- Research -->
                 <div class="row-span-1" id="research">
                     <h1 class="text-2xl font-semibold px-2 mt-6 text-left">Research</h1>
-                    <div class="flex flex-row flex-wrap w-full text-left">
+                    <div class="flex flex-col flex-wrap w-full text-left">
                             
                         <!-- Papers are ordered from newest to oldest -->
                         <!-- Need to update paper details -->
@@ -470,7 +469,7 @@
                                 class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
                                 >poster</a>]
                             </p>
-                            <p class="text-xs text-green-600 mt-1">
+                            <p class="text-sm text-green-700 font-medium mt-1">
                                 Skills: Flask, Python, Svelte, JavaScript, HTML, CSS, JSON, computer vision, writing
                             </p>
                         </div>
@@ -493,7 +492,7 @@
                                 class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
                                 >doi</a>]
                             </p>
-                            <p class="text-xs text-green-600 mt-1">
+                            <p class="text-sm text-green-700 font-medium mt-1">
                                 Skills: Google Cloud Platform, Svelte, video editing, writing
                             </p>
                         </div>
@@ -516,7 +515,7 @@
                                 class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
                                 >doi</a>]
                             </p>
-                            <p class="text-xs text-green-600 mt-1">
+                            <p class="text-sm text-green-700 font-medium mt-1">
                                 Skills: Node.js, JSON, SQL, HTTP, Docker, Svelte, unit testing
                             </p>
                         </div>
@@ -539,7 +538,7 @@
                                 class="underline underline-offset-4 text-purple-700 hover:text-purple-400"
                                 >pdf</a>]
                             </p>
-                            <p class="text-xs text-green-600 mt-1">
+                            <p class="text-sm text-green-700 font-medium mt-1">
                                 Skills: Python, JSON, Electron, JavaScript, HTML, CSS
                             </p>
                         </div>
@@ -577,7 +576,7 @@
                         <!-- Unpaws the Music -->
                         <div class="m-3">
                             <h3 class="font-semibold">Unpaws the Music</h3>
-                            <h4 class="mb-1 text-sm text-green-600">
+                            <h4 class="mb-1 text-sm text-green-700 font-medium">
                                 Skills: React, Spotify API, Redux, Vercel, UI/UX Design, JavaScript
                             </h4>
                             <p class="text-sm">
@@ -603,7 +602,7 @@
                         <!-- Sims Family Trees -->
                         <div class="m-3">
                             <h3 class="font-semibold">Sims 3 Family Tree Viewer</h3>
-                            <h4 class="mb-1 text-sm text-green-600">
+                            <h4 class="mb-1 text-sm text-green-700 font-medium">
                                 Skills: React, Next.js, Cytoscape.js, Google Sheets API, Vercel
                             </h4>
                             <p class="text-sm">
@@ -629,7 +628,7 @@
                         <!-- ML Challenges Waste Classification -->
                         <div class="m-3">
                             <h3 class="font-semibold">Waste Image Classification</h3>
-                            <h4 class="mb-1 text-sm text-green-600">
+                            <h4 class="mb-1 text-sm text-green-700 font-medium">
                                 Skills: Python, pandas, numpy, PyTorch, scikit-learn, matplotlib
                             </h4>
                             <p class="text-sm">
@@ -656,7 +655,7 @@
                         <!-- CS 568 term project -->
                         <div class="m-3">
                             <h3 class="font-semibold">One-Armed Cooking App</h3>
-                            <h4 class="mb-1 text-sm text-green-600">
+                            <h4 class="mb-1 text-sm text-green-700 font-medium">
                                 Skills: Figma, UI/UX Design, Inclusive Design, Cognitive Walkthroughs
                             </h4>
                             <p class="text-sm">
@@ -699,7 +698,7 @@
                         <!-- CS 549 project-->
                         <div class="m-3">
                             <h3 class="font-semibold">Last Stops: Travel Planner</h3>
-                            <h4 class="mb-1 text-sm text-green-600">
+                            <h4 class="mb-1 text-sm text-green-700 font-medium">
                                 Skills: Svelte, Vercel, Figma, Visual Analytics, Data Visualization, UI/UX Design, JavaScript
                             </h4>
                             <p class="text-sm">
@@ -725,7 +724,7 @@
                         <!-- Leviton projects -->
                         <div class="m-3">
                             <h3 class="font-semibold">Leviton Internship Projects</h3>
-                            <h4 class="mb-1 text-sm text-green-600">
+                            <h4 class="mb-1 text-sm text-green-700 font-medium">
                                 Skills: Python, Lemur, Flask, Tkinter, Keras, Docker, AWS
                             </h4>
                             <p class="text-sm">
@@ -758,7 +757,7 @@
                         <!-- CS 565 term project -->
                         <div class="m-3">
                             <h3 class="font-semibold">Redesigning VoTT</h3>
-                            <h4 class="mb-1 text-sm text-green-600">
+                            <h4 class="mb-1 text-sm text-green-700 font-medium">
                                 Skills: Figma, User Interviews, UI/UX Design, Human-Computer Interaction
                             </h4>
                             <p class="text-sm">
@@ -785,7 +784,7 @@
                         <!-- ST 441 migration project -->
                         <div class="m-3">
                             <h3 class="font-semibold">Modeling Human Migration</h3>
-                            <h4 class="mb-1 text-sm text-green-600">
+                            <h4 class="mb-1 text-sm text-green-700 font-medium">
                                 Skills: R, Machine Learning, data visualization
                             </h4>
                             <p class="text-sm">
@@ -818,7 +817,7 @@
                         <!-- CS 352 term project -->
                         <div class="m-3">
                             <h3 class="font-semibold">EventMe: Event Planning App</h3>
-                            <h4 class="mb-1 text-sm text-green-600">
+                            <h4 class="mb-1 text-sm text-green-700 font-medium">
                                 Skills: Figma, User Interviews, UI/UX Design, Human-Computer Interaction
                             </h4>
                             <p class="text-sm">
@@ -851,7 +850,7 @@
                 <!-- Contact -->
                 <div class="row-span-1" id="contact">
                     <h1 class="text-2xl font-semibold px-2 mt-6 text-left">Contact</h1>
-                    <ul class="flex flex-row justify-center text-xs text-center">
+                    <ul class="flex flex-row justify-center text-sm text-center">
                         <li class="px-6 py-3 w-24"> 
                             <a href="https://www.linkedin.com/in/anita-ruangrotsakun/" target="_blank" rel="noopener noreferrer"> 
                                 <img src="./static/linkedIn_icon.png" title="View my LinkedIn!" />
